@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 10em;
+    font-family: 'Gugi', cursive;
+}
+
+:root {
+    --colorf:#ECE4DB;
+    --colorc:#FFCAD4;
+    --colors:#F4ACB7;
+}
+
+.fondo {
+    padding: 4em 2em 3em 2em;
+    background-color: #ECE4DB;
+}
+
+.InSesion{
+    width: 30em;
+    height: 40em;
+    margin: auto;
+    background-color: #FABBC6;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+h1 {
+    margin: 1em 0em 1em 3em;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+h2 {
+    font-size: 0.8em;
+    color: white;
+}
+
+p {
+    text-align: center;
+    margin: 0.5em 1em 0.5em 1em;
+    color: #C997A0;
+}
+
+.n {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+
+
+#nm, #eml {
+    width: 22em;
+    height: 2.5em;
+    margin: 0.5em 0em 0.5em 0em;
+    padding: 0.2em;
+    border-radius: 0.3em;
+    border: 0;
+    font-size:1em;
+    outline: none;
+    background-color: #FFCAD4;
+    color: #A68C94;
+}
+
+textarea {
+    width: 25em;
+    height: 6em;
+    margin: 1em 0em 1em 0em;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    font-size: 1em;
+    border: 0;
+    outline: none;
+    background-color: #FFCAD4;
+    color: #A68C94;
+}
+
+#btn-e {
+    width: 8em;
+    height: 4em;
+    border-radius: 0.3em;
+    border: 0;
+    font-size:1em;
+    outline: none;
+    background-color: #FFCAD4;
+    color: #A68C94;
+}
+
+#btn-e:hover {
+    background-color: white;
+    transition: color 2s;
+}
+
